@@ -13,9 +13,9 @@ app.listen(PORT, () => {
 
 app.get('/', async (req, res) => {
   try {
-    const response = await axios.get('https://api.zealy.io/communities/idklmao/leaderboard', {
+    const response = await axios.get('https://api.zealy.io/communities/manifest/leaderboard', {
       headers: {
-        'x-api-key': '129f6dAgfoJBzk-XX1NskvpCe-H',
+        'x-api-key': 'f39d33XvnPWAn-NRm2ZY2vI_sXS',
       },
       params: {
         page: 0,
